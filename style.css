@@ -1,3 +1,19 @@
-.background { }
-.container { }
-.signature { }
+body {
+  background-color: rgb(52, 66, 85);
+}
+.background {
+}
+.container {
+    width: 200px;
+    height: 60px;
+    background-color: lightskyblue;
+    margin: 50px auto;
+}
+.signature {
+    background-color: rgba(250, 235, 215);
+    text-align: center;
+    line-height: 60px;
+    transform: rotatez(-15deg);
+    perspective: 1000px;
+    color: transparent;
+}
