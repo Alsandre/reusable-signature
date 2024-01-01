@@ -4,16 +4,23 @@ body {
 .background {
 }
 .container {
-    width: 200px;
-    height: 60px;
+    width: 500px;
+    height: 160px;
     background-color: lightskyblue;
     margin: 50px auto;
 }
 .signature {
     background-color: rgba(250, 235, 215);
     text-align: center;
-    line-height: 60px;
+    line-height: 160px;
     transform: rotatez(-15deg);
     perspective: 1000px;
-    color: transparent;
+    font-family: 'NikoNikoladze';
+    font-size: 70px;
+}
+
+
+@font-face {
+  font-family: 'NikoNikoladze';
+  src: url('./DM-NIKO-NIKOLADZE.TTF') format('truetype');
 }
